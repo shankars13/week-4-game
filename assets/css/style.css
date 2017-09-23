@@ -10,6 +10,7 @@ h1 {
 	line-height: 80px;
 	text-shadow: 2px 2px gold; 
 	background-image:url("../images/b3.jpg");
+	padding-bottom: 10px;
 
 }
 
@@ -17,7 +18,7 @@ h1 {
 	width: 60%;
 	font-family: "Open Sans", Arial;
 	font-size: 18px;
-	margin:22px auto 10px auto;
+	margin:25px auto 10px auto;
 	background: #f1f2dc;
 	border: solid 2px;
 	border-color: #e59834;
@@ -120,8 +121,9 @@ img {
 
 .total {
 	width:40%;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: 600;
-	font-family: helvetica, Arial, Serif;
+	font-family: 'Comic Sans MS', Arial, Serif;
 	color: #960150;
+	padding-top: 10px;
 }
