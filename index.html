@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector Game</title>
+	<meta charset="utf-8">
+
+	<!-- CSS stylesheet Link -->	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+
+	<div><h1> Crystals&nbsp;&nbsp;Collector </h1></div>
+
+	<div class="Instrn">
+		<ul>
+			<h2>Instructions :</h2>
+			<li>You will be given a random number at the start of the game.</li>
+			<li>There are four crystals below. By clicking on a crystal you will add a speciic amount of points to your total score.</li>
+			<li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+			<li>The value of each crystal is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each crystal.</li>
+		</ul>
+	</div>
+
+
+	<div class="randomScore">
+		<div id="random"></div>
+		<div id=score>Score Card</div>
+	</div>
+
+	<div class="crystalDisplay">
+		<img id="pink" class="crystal" height=75px width=75px src="assets/images/pink1.jpg" style="border:5px double #965001">
+		<img id="blue" class="crystal"  height=75px width=75px src="assets/images/blue1.jpg" style="border:5px double #965001">
+		<img id="yellow" class="crystal"  height=75px width=75x src="assets/images/yellow.jpg" style="border:5px double #965001">
+		<img id="green" class="crystal" height=75px width=75px src="assets/images/green1.jpg" style="border:5px double #965001">
+
+	</div>
+
+	<div class="total">
+		Your total score is
+		<div id="total-score"></div>
+	</div>
+
+	<audio loop autoplay>
+		<source src="assets/images/music1.mp3" type="audio/wav">
+	</audio>
+
+	<script src="assets/javascript/game.js"></script>
+</body>
+</html>
